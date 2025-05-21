@@ -11,3 +11,6 @@ if (operacion === "registrar") {
 if (operacion === "leer") {
     leer()
 }
+
+/*me dió error sin editar el "type" de package.json por un tema de actualización, aún cambiando los
+  ".js" por ".mjs" */

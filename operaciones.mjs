@@ -8,10 +8,10 @@ const archivo = 'citas.json'
 export const registrar = ( nombre, edad, animal, color, enfermedad) => {
     try {
         // Leer el archivo
-        let citas = JSON.parse(fs.readFileSync(archivo, 'utf8'))
+        const citas = JSON.parse(fs.readFileSync(archivo, 'utf8'))
 
         // Agregar cita
-        let nuevaCita = { nombre, edad, animal, color, enfermedad }
+        const nuevaCita = { nombre, edad, animal, color, enfermedad }
         citas.push(nuevaCita)
 
         // Guardar cambios
