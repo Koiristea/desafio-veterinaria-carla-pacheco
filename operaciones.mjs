@@ -35,3 +35,6 @@ export const leer = () => {
 export default { registrar, leer }
 
 // module.exports = { registrar, leer }; -- forma antigua
+
+// registrar en consola:   node index.js registrar Benito "2 años" perro blanco vomitos
+// leer en consola:   node index.js leer
